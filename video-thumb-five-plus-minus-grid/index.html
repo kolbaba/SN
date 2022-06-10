@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Thumb Grid 5+</title>
+</head>
+<body>
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;1,300;1,500&display=swap');
+        #grid-wrap {
+            display: flex;
+            justify-content: space-around;
+            max-width: 1081px;
+            margin: 0 auto;
+            Flex-wrap:wrap; 
+            flex-direction: row;
+            font-family: 'Roboto', sans-serif;
+        }
+        #grid-wrap .col {
+            display:block; 
+            flex: 0 0 30%; 
+            max-width: 33%;
+            margin-top:1%;
+            margin-bottom:1%;
+        }
+        #grid-wrap .col .grid-text {
+            /* display:flex;
+            flex-direction:column; */
+        }
+        #grid-wrap .col .grid-text span {
+            display:block;
+        }
+        #grid-wrap .col .grid-text span:first-child {
+            font-size: 25px;
+            color:#ba2920;
+        }
+        #grid-wrap .col .grid-text span:last-child {
+            font-size: 15px;
+            color:#198fb6;
+        }
+        /* md */
+        @media (max-width:1025px) {
+            
+        }
+        /* sm */
+        @media (max-width:925px){
+            #grid-wrap {
+                flex-direction: column;
+                align-items: center;
+            }
+            #grid-wrap .col {
+                margin:20px 0;
+                flex:0 0 100%;
+                max-width:100%;
+            }
+        }
+    </style>
+    <div id="grid-wrap">
+        <div class="col">
+            <a class="litebox" href="https://vimeo.com/330588204"><img class="aligncenter" src="https://pureplanetpools.com/wp-content/uploads/ExitingTheTruckVideoThumbnail-300x173-1.png" alt="" /></a>
+            <div class="grid-text">
+                <span>Exiting The Truck</span>
+                <span>POOL TROOPERS UNIVERSITY</span>
+            </div>
+        </div><!-- end col -->
+        <div class="col">
+            <a class="litebox" href="https://vimeo.com/330587785"><img class="aligncenter" src="https://pureplanetpools.com/wp-content/uploads/ParkingProceduresVideoThumbnail-300x173-1.png" alt="" width="300" height="173" /></a>
+            <div class="grid-text">
+                <span>Parking Procedures</span>
+                <span>POOL TROOPERS UNIVERSITY</span>
+            </div>
+        </div><!-- end col -->
+        <div class="col">
+            <a class="litebox" href="https://player.vimeo.com/video/331074945"><img class="alignleft" src="https://pureplanetpools.com/wp-content/uploads/WalkAwayProcedureVideoThumbnail300.png" alt="" /></a>
+            <div class="grid-text">
+                <span>Walk Away Procedure</span>
+                <span>POOL TROOPERS UNIVERSITY</span>
+            </div>
+        </div><!-- end col -->
+        <div class="col">
+            <a class="litebox" href="https://player.vimeo.com/video/330587822"><img src="https://pureplanetpools.com/wp-content/uploads/PoolAccessVideoThumbnail-300x174-1.png" alt="" /></a>
+            <div class="grid-text">
+                <span>Pool Access</span>
+                <span>POOL TROOPERS UNIVERSITY</span>
+            </div>
+        </div><!-- end col -->
+        <div class="col">
+            <a class="litebox" href="https://player.vimeo.com/video/330587002"><img src="https://pureplanetpools.com/wp-content/uploads/PoolTrooperUniformVideoThumbnail-300x173-1.png" alt="" /></a>
+            <div class="grid-text">
+                <span>Pool Trooper Uniform</span>
+                <span>POOL TROOPERS UNIVERSITY</span>
+            </div>
+        </div><!-- end col -->
+    </div><!-- end grid-wrap -->
+    
+
+
+    
+</body>
+</html>
