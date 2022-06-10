@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PT Banner</title>
 </head>
+
 <body>
     <style>
         /* colors
@@ -13,36 +15,54 @@
         red: #c93c2d
         */
         @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;1,300;1,500&display=swap');
+
+        /* White Text */
+        #banner,
+        #banner a {
+            color: #fff;
+            text-decoration: none;
+        }
+
         #banner {
             background-color: #0c2937;
-            color:#fff;
-            width:100%;
-            max-width:100%;
+            width: 100%;
+            max-width: 100%;
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
             font-family: 'Roboto', sans-serif;
+            align-items: center;
         }
+
         #banner h2 {
-            font-size: 30px;
+            font-size: 40px;
+            letter-spacing: 1px;
         }
-        #banner .bn-logo a img {
-            max-width:100px;
+
+        #banner .bn-logo img {
+            max-width: 100px;
             background-color: #fff;
-            padding:  20px;
+            padding: 20px;
             border-radius: 20px;
         }
-        #banner .bn-btn {
-            background-color:#c93c2d;
+
+        #banner .bn-btn a {
+            background-color: #c93c2d;
+            border-radius: 10px;
+            padding:10px 40px;
+        }
+        #banner .bn-btn a:hover {
+            background-color: #962c20;
         }
     </style>
     <div id="banner">
         <h2>What is a Pool Trooper?</h2>
         <div class="bn-logo">
-            <a href="#"><img src="ppp-logo.png" alt="CHANGEME"></a>
+            <img src="ppp-logo.png" alt="CHANGEME">
         </div>
         <div class="bn-btn">
             <a href="#">Learn More</a>
         </div>
     </div>
 </body>
+
 </html>
