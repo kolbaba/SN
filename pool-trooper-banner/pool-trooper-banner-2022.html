@@ -31,7 +31,7 @@
             justify-content: space-around;
             font-family: 'Roboto', sans-serif;
             align-items: center;
-            flex-wrap: wrap;
+            
         }
 
         #pt-banner h2 {
@@ -53,10 +53,16 @@
             border-radius: 10px;
             padding:10px 40px;
             display: block;
-            margin-bottom:10px;
-        }
+        }        
+
         #pt-banner .bn-btn a:hover {
             background-color: #962c20;
+        }
+
+        @media (max-width:800px) {
+            #pt-banner {flex-wrap: wrap;}
+            #pt-banner h2 {font-size:30px}
+            #pt-banner .bn-btn a {margin-bottom:10px;}
         }
 
     </style>
